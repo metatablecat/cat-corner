@@ -1,5 +1,3 @@
----
-title: metatablecat
----
-
 # cats
+
+Random posts that are on my mind
