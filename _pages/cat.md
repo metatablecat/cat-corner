@@ -1,5 +1,7 @@
 ---
 permalink: cat
+layout: page
+title: 4K Cat
 ---
 
 <div align="center">
