@@ -1,2 +1,5 @@
 theme: minima
 title: random rambling from the cat
+
+minima:
+  skin: dark
