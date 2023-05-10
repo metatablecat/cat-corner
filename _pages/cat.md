@@ -1,5 +1,5 @@
 ---
-permalink: cat
+permalink: /cat
 layout: page
 title: 4K Cat
 ---
