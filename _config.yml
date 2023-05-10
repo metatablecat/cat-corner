@@ -1,5 +1,6 @@
 theme: minima
-title: random rambling from the cat
+title: the cat's corner
+description: random rambling from the programmer cat
 
 minima:
   skin: dark
