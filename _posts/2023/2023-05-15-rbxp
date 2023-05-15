@@ -6,7 +6,9 @@ categories: ["dev"]
 
 > This spec is not complete, it is only keys that I've spotted so far in the file, there may be other stuff
 
-The `.rbxp` file is a JSON-file format that is used for Roblox's internal projects (CoreScripts and BuiltInPlugins). The `instanceHierarchy` key in thefile is almost equivalant to `.project.json` files in Rojo.
+The `.rbxp` file is a JSON-file format that is used for Roblox's internal projects (CoreScripts and BuiltInPlugins).
+
+You can load them by having Internal Mode and opening them using the `File > Open With...` menu. You *cannot* open the file with Studio from the explorer since Studio will try to load the file as `rbxm/rbxmx`
 
 An empty project may look like
 ```json
