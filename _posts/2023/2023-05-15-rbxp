@@ -1,0 +1,85 @@
+---
+title: ".rbxp file format"
+date: 2023-05-15
+categories: ["dev"]
+---
+
+> This spec is not complete, it is only keys that I've spotted so far in the file, there may be other stuff
+
+The `.rbxp` file is a JSON-file format that is used for Roblox's internal projects (CoreScripts and BuiltInPlugins). The `instanceHierarchy` key in thefile is almost equivalant to `.project.json` files in Rojo.
+
+An empty project may look like
+```json
+{
+	"fileVersion": 1,
+	"instanceHierarchy": {
+		"tree": {
+			"$className": "DataModel",
+			"ReplicatedStorage": {
+				"$className": "ReplicatedStorage",
+				"Shared": {
+					"$path": "Shared"
+				}
+			}
+		}
+	}
+}
+```
+
+Keys that have been obsered are as follows:
+
+## `instanceHierarchy`
+Stated above but is almost identical to a `Rojo` `project.json` file
+```json
+// .rbxp
+{
+  "instanceHierarchy": {
+    "tree": {
+      "$className": "DataModel",
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "Shared": {
+          "$path": "Shared"
+        }
+      }
+    }
+  }
+}
+```
+
+```json
+// default.project.json
+{
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "Shared"
+      }
+    }
+  }
+}
+```
+
+## `projectFileMap`
+Project file map links to a built-in or standalone built-in for debugging the plugin, when loaded with this key (and properly initialised), it will load the specified built-in into `PluginDebugService`.
+
+This will ***only*** load plugins inside the specified folder.
+
+You can also incrementally build and reload plugins in the built-in file.
+
+> **This will not sign or compile the model, this requires an external signing key file and a `.config` file, make sure to keep a backup of the signed plugin if you intend to turn off Internal Mode**
+
+## `fileVersion`
+Not required, but always 1. Not sure what this key is used for
+
+## `luau`
+This section is used for providing an inline `luaurc` file, a lot of files I've observed have this chunk in it
+```json
+{
+	"luau": {
+		"languageMode": "nonstrict"
+	}
+}
+```
