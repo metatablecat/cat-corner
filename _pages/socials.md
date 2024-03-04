@@ -11,10 +11,11 @@ You've come here for one of two reasons
 If you're unsure of an account's legitimacy, I've left a list of all my active social accounts that I control here, if its not listed here, its safe to assume it's not me.
 
 ## Discord
-`metacat#9164` (I will not accept FRs)
+`metatablecat` (I will not accept FRs)
 
 ## GitHub
-`metatablecat` - https://github.com/metatablecat/
+* `metatablecat` - https://github.com/metatablecat/
+* `metatablecatgames` https://github.com/metatablecatgames/
 
 ## Roblox
 `metatablecatmaid (8094244)`
@@ -23,6 +24,6 @@ If you're unsure of an account's legitimacy, I've left a list of all my active s
 
 ## YouTube
 * `metatablecat` - https://youtube.com/@metatablecat
-* `T Filtered C` - https://youtube.com/@tfc-official
+* `T Filtered C` - https://youtube.com/@tfilteredc
 
 This is a non-exhaustive list, but do not trust any account that isn't listed here
