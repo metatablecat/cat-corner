@@ -26,4 +26,4 @@ For everyone else, you can continue to contact me on the DevForum as I always ha
 
 ## Closing
 
-This is no one's fault, just my own, its anxiety from past behaviour thats built up into paranoia, and this is the best way for me to manage it.
+This is no one's fault, just my own, its anxiety from past events thats built up into paranoia, and this is the best way for me to manage it.
