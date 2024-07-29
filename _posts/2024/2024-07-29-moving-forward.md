@@ -12,6 +12,10 @@ I've recently had a massive wave of paranoia and anxiety thats gotten to the poi
 
 I may start to prune friends from here as well soon unless you're a close friend that I trust personally.
 
+## Future of my Discord account
+
+I'm only going to use Discord to stay in touch, but I'm not going to post stuff that I would otherwise usually post there. Regardless of the paranoia, I want to move away from social media, but I understand this is a required contact method for some of my friends. (please move to my Matrix whenever i bother to set it up, so I can delete Discord fully)
+
 ## Roblox and GitHub
 
 I'll continue to make stuff on Roblox and GitHub, game development is a passion for me so its a bit weird that I would close these accounts.
